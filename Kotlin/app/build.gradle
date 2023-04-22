@@ -1,0 +1,132 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+
+    compileSdkVersion 33 // 31
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+
+        applicationId "com.th.chapter_11"
+        minSdkVersion 26
+        targetSdkVersion 33 // 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    namespace 'com.th.chapter_11'
+
+    buildFeatures {
+        dataBinding true
+    }
+
+}
+
+dependencies {
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+
+    // TH: brings in RecyclerView.
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+//  implementation 'androidx.core:core-ktx:+'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+
+    def lifecycle_version = "2.2.0"
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+
+    // TH: brings in Room library and Room annotation (i.e. boilerplate).
+    def room_version = "2.4.2" // "2.4.1", "2.3.0"
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+
+    // TH: brings in retrofit and gson.
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+    // TH: brings in RxJava.
+    implementation 'com.squareup.retrofit2:adapter-rxjava3:2.9.0'
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
+    implementation 'io.reactivex.rxjava3:rxjava:3.0.7'
+
+    // TH: brings in Kotlin Coroutines.
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9'
+
+    // TH: brings in Glide.
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+
+    // TH: brings in ViewModel (i.e. viewModelScope extension).
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
+
+    /*
+    // TH: brings in WorkManager.
+    def work_version = "2.8.0"
+    implementation "androidx.work:work-runtime-ktx:$work_version"
+    */
+
+    // TH: brings in WorkManager.
+    implementation 'androidx.work:work-runtime-ktx:2.7.0'
+    implementation 'androidx.work:work-runtime:2.7.0'
+
+//  implementation 'androidx.lifecycle:lifecycle-*:2.6.1'
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+
+    // TH: brings in JUnit.
+    testImplementation 'junit:junit:4.13.2'
+
+    // TH: helps with JUnit test rules and LiveData.
+    //testImplementation 'android.arch.core:core-testing:2.1.0'
+
+    // TH: brings in Mockito.
+    testImplementation 'org.mockito:mockito-core:3.3.3'
+
+    // TH: brings in Android instrumentation.
+    androidTestImplementation 'androidx.test:rules:1.5.0'
+    androidTestImplementation 'androidx.test:runner:1.5.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+
+    // TH: brings in test setup for RecyclerView.
+    // TH: https://developer.android.com/training/testing/instrumented-tests/androidx-test-libraries/test-setup
+    androidTestImplementation( "androidx.test.espresso:espresso-contrib:3.4.0")
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-intents:3.5.1'
+
+    implementation "androidx.test.espresso:espresso-idling-resource:3.4.0"
+
+    // TH: brings in Android instrumentation (again).
+    // TH: https://www.youtube.com/watch?v=zJuFYqnBcgQ
+    androidTestImplementation 'androidx.test:core:1.5.0'
+    androidTestImplementation 'androidx.test.ext:junit-ktx:1.1.3'
+
+    // TH: brings in JUnit.
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+
+}

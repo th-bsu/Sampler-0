@@ -1,0 +1,28 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.28020833333333334" />
+        <entry key="app/src/main/res/layout/activity_recommendation_details.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_shelter.xml" value="0.28958333333333336" />
+        <entry key="app/src/main/res/layout/activity_shelter_split_20.xml" value="0.16761619190404797" />
+        <entry key="app/src/main/res/layout/activity_shelter_split_30.xml" value="0.21041666666666667" />
+        <entry key="app/src/main/res/layout/activity_shelter_split_5.xml" value="0.3697916666666667" />
+        <entry key="app/src/main/res/layout/activity_shelter_split_6.xml" value="0.29248075784487865" />
+        <entry key="app/src/main/res/layout/fragment_split_0.xml" value="0.28854166666666664" />
+        <entry key="app/src/main/res/layout/shelter_activity.xml" value="0.28958333333333336" />
+        <entry key="app/src/main/res/layout/shelter_split.xml" value="0.28958333333333336" />
+        <entry key="app/src/main/res/layout/view_post_row.xml" value="0.3697916666666667" />
+        <entry key="app/src/main/res/layout/view_recommendation_row.xml" value="0.3697916666666667" />
+        <entry key="app/src/main/res/layout/view_recommendation_row_be.xml" value="0.4318734793187348" />
+        <entry key="app/src/main/res/layout/view_recommendation_row_fe.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

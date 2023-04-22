@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/activity_shelter_split_30"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context=".ShelterActivity"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_1"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_0"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_2"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_1"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_3"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_2"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_4"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_3"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_5"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_4"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_6"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_5"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_7"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_6"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_8"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_7"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_9"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_8"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_10"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_9"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_11"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_10"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_12"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_11"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_13"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_12"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_14"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_13"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_15"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_14"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_16"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_15"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_17"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_16"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_18"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_18"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_17"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_19"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_19"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_18"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_20"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_19"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_21"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_21"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_20"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_22"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_22"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_21"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_23"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_23"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_22"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_24"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_24"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_23"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_25"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_25"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_24"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_26"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_26"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_25"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_27"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_27"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_26"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_28"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_28"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_27"
+            app:layout_constraintBottom_toTopOf="@+id/activity_shelter_recycler_view_29"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/activity_shelter_recycler_view_29"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_28"
+            app:layout_constraintBottom_toTopOf="@+id/button_clear"
+            />
+
+        <Button
+            android:id="@+id/button_clear"
+            style="@style/button_clear_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_clear_text"
+            app:backgroundTint="@color/button_clear"
+            android:textColor="@color/button_clear_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_shelter_recycler_view_29"
+            app:layout_constraintBottom_toTopOf="@+id/button_setup"
+            tools:text="CLEAR ALL" />
+
+        <Button
+            android:id="@+id/button_setup"
+            style="@style/button_setup_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_setup_text"
+            app:backgroundTint="@color/button_setup"
+            android:textColor="@color/button_setup_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_clear"
+            app:layout_constraintBottom_toTopOf="@+id/button_mode_highlight"
+            tools:text="MODE: SETUP" />
+
+        <Button
+            android:id="@+id/button_mode_highlight"
+            style="@style/button_mode_highlight_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_mode_highlight_text"
+            app:backgroundTint="@color/button_highlight"
+            android:textColor="@color/button_highlight_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_setup"
+            app:layout_constraintBottom_toTopOf="@+id/button_mode_add"
+            tools:text="MODE: HIGHLIGHT" />
+
+        <Button
+            android:id="@+id/button_mode_add"
+            style="@style/button_mode_add_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_mode_add_text"
+            app:backgroundTint="@color/button_mode_add"
+            android:textColor="@color/button_mode_add_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_mode_highlight"
+            app:layout_constraintBottom_toTopOf="@+id/button_mode_delete"
+            tools:text="MODE: ADD" />
+
+        <Button
+            android:id="@+id/button_mode_delete"
+            style="@style/button_mode_delete_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_mode_delete_text"
+            app:backgroundTint="@color/button_mode_delete"
+            android:textColor="@color/button_mode_delete_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_mode_add"
+            app:layout_constraintBottom_toTopOf="@+id/button_mode_submit"
+            tools:text="MODE: DELETE" />
+
+        <Button
+            android:id="@+id/button_mode_submit"
+            style="@style/button_mode_submit_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_mode_submit_text"
+            app:backgroundTint="@color/button_mode_submit"
+            android:textColor="@color/button_mode_submit_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_mode_delete"
+            app:layout_constraintBottom_toTopOf="@+id/productIdHighLight"
+            tools:text="SUBMIT" />
+
+        <EditText
+            android:id="@+id/productIdHighLight"
+            style="@style/productId_style_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/productId_hint"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_mode_submit"
+            app:layout_constraintBottom_toTopOf="@+id/button_highlight_productId"
+            tools:text="PRODUCT HIGHLIGHT ..."
+            android:autofillHints="@string/editText_productId"
+            android:inputType="phone"
+            />
+
+        <Button
+            android:id="@+id/button_highlight_productId"
+            style="@style/button_submit_productId_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_highlight_text"
+            app:backgroundTint="@color/button_highlight"
+            android:textColor="@color/button_highlight_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/productIdHighLight"
+            app:layout_constraintBottom_toTopOf="@+id/productIdAnchor"
+            tools:text="HIGHLIGHT" />
+
+        <EditText
+            android:id="@+id/productIdAnchor"
+            style="@style/productIdAnchor_style_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/productIdAnchor_hint"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_highlight_productId"
+            app:layout_constraintBottom_toTopOf="@+id/button_anchor_productId"
+            tools:text="PRODUCT ANCHOR ..."
+            android:autofillHints="@string/editText_productIdAnchor"
+            android:inputType="phone"
+            />
+
+        <Button
+            android:id="@+id/button_anchor_productId"
+            style="@style/button_anchor_productId_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_anchor_text"
+            app:backgroundTint="@color/button_anchor"
+            android:textColor="@color/button_anchor_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/productIdAnchor"
+            app:layout_constraintBottom_toTopOf="@+id/productIdAdd"
+            tools:text="ANCHOR" />
+
+        <EditText
+            android:id="@+id/productIdAdd"
+            style="@style/productIdAdd_style_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/productIdAdd_hint"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_anchor_productId"
+            app:layout_constraintBottom_toTopOf="@+id/button_addLEFT_productId"
+            tools:text="PRODUCT ADD ..."
+            android:autofillHints="@string/editText_productIdAdd"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/button_addLEFT_productId"
+            style="@style/button_addLEFT_productId_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_addLEFT_text"
+            app:backgroundTint="@color/button_add_left"
+            android:textColor="@color/button_add_left_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/productIdAdd"
+            app:layout_constraintBottom_toTopOf="@+id/button_addRIGHT_productId"
+            tools:text="ADD LEFT" />
+
+        <Button
+            android:id="@+id/button_addRIGHT_productId"
+            style="@style/button_addRIGHT_productId_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_addRIGHT_text"
+            app:backgroundTint="@color/button_add_right"
+            android:textColor="@color/button_add_right_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_addLEFT_productId"
+            app:layout_constraintBottom_toTopOf="@+id/button_insert_above"
+            tools:text="ADD RIGHT" />
+
+        <Button
+            android:id="@+id/button_add_above"
+            style="@style/button_add_above_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_add_above_text"
+            app:backgroundTint="@color/button_add_above"
+            android:textColor="@color/button_add_above_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_addRIGHT_productId"
+            app:layout_constraintBottom_toTopOf="@+id/button_add_below"
+            tools:text="ADD ABOVE" />
+
+        <Button
+            android:id="@+id/button_add_below"
+            style="@style/button_add_below_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_add_below_text"
+            app:backgroundTint="@color/button_add_below"
+            android:textColor="@color/button_add_below_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_add_above"
+            app:layout_constraintBottom_toTopOf="@+id/button_shift_left"
+            tools:text="ADD BELOW" />
+
+        <Button
+            android:id="@+id/button_shift_left"
+            style="@style/button_shift_left_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_shift_left_text"
+            app:backgroundTint="@color/button_shift_left"
+            android:textColor="@color/button_shift_left_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_add_below"
+            app:layout_constraintBottom_toTopOf="@+id/button_shift_right"
+            tools:text="SHIFT LEFT" />
+
+        <Button
+            android:id="@+id/button_shift_right"
+            style="@style/button_shift_right_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_shift_right_text"
+            app:backgroundTint="@color/button_shift_right"
+            android:textColor="@color/button_shift_right_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_shift_left"
+            app:layout_constraintBottom_toTopOf="@+id/button_add_action"
+            tools:text="SHIFT RIGHT" />
+
+        <Button
+            android:id="@+id/button_add_action"
+            style="@style/button_add_action_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_add_action_text"
+            app:backgroundTint="@color/button_add_action"
+            android:textColor="@color/button_add_action_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_shift_right"
+            app:layout_constraintBottom_toTopOf="@+id/button_delete_single"
+            tools:text="ADD ACTION" />
+
+        <Button
+            android:id="@+id/button_delete_single"
+            style="@style/button_delete_single_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_delete_single_text"
+            app:backgroundTint="@color/button_delete"
+            android:textColor="@color/button_delete_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_add_action"
+            app:layout_constraintBottom_toTopOf="@+id/button_delete_multiple"
+            tools:text="DELETE SINGLE" />
+
+        <Button
+            android:id="@+id/button_delete_multiple"
+            style="@style/button_delete_multiple_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_delete_multiple_text"
+            app:backgroundTint="@color/button_delete"
+            android:textColor="@color/button_delete_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_delete_single"
+            app:layout_constraintBottom_toTopOf="@+id/productIdDelete"
+            tools:text="DELETE MULTIPLE" />
+
+        <EditText
+            android:id="@+id/productIdDelete"
+            style="@style/productIdDelete_style_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/productIdDelete_hint"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_delete_multiple"
+            app:layout_constraintBottom_toTopOf="@+id/button_delete_action"
+            tools:text="PRODUCT DELETE ..."
+            android:autofillHints="@string/editText_productIdDelete"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/button_delete_action"
+            style="@style/button_delete_action_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_delete_action_text"
+            app:backgroundTint="@color/button_delete_action"
+            android:textColor="@color/button_delete_action_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/productIdDelete"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:text="DELETE ACTION" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+

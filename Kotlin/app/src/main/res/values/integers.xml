@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- https://stackoverflow.com/questions/8492355/android-assigning-a-constant-value-to-a-xml-element -->
+    <integer name="max">200000</integer>
+
+</resources>

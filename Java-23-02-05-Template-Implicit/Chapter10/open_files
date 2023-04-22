@@ -1,0 +1,42 @@
+gedit /home/th_ubuntu_20/Documents/NOTES &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/spring-cloud/gateway/src/main/resources/application.yml &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/test-em-all.bash &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/product-composite-service/src/main/java/se/simple/microservices/composite/product/ProductCompositeServiceApplication.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/product-composite-service/src/main/resources/application.yml &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/api/src/main/java/se/simple/api/composite/product/ProductCompositeService.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/api/src/main/java/se/simple/api/composite/product/ProductAggregate.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/api/src/main/java/se/simple/api/composite/product/RecommendationSummary.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/api/src/main/java/se/simple/api/composite/product/ReviewSummary.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/product-composite-service/src/main/java/se/simple/microservices/composite/product/services/ProductCompositeServiceImpl.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/product-composite-service/src/main/java/se/simple/microservices/composite/product/services/ProductCompositeIntegration.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/product-service/src/main/java/se/simple/microservices/core/product/ProductServiceApplication.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/product-service/src/main/resources/application.yml &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/product-service/src/main/java/se/simple/microservices/core/product/services/MessageProcessor.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/api/src/main/java/se/simple/api/core/product/Product.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/api/src/main/java/se/simple/api/core/product/ProductService.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/product-service/src/main/java/se/simple/microservices/core/product/services/ProductServiceImpl.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/product-service/src/main/java/se/simple/microservices/core/product/services/ProductMapper.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/product-service/src/main/java/se/simple/microservices/core/product/persistence/ProductRepository.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/product-service/src/main/java/se/simple/microservices/core/product/persistence/ProductEntity.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/recommendation-service/src/main/java/se/simple/microservices/core/recommendation/RecommendationServiceApplication.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/recommendation-service/src/main/resources/application.yml &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/recommendation-service/src/main/java/se/simple/microservices/core/recommendation/services/MessageProcessor.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/api/src/main/java/se/simple/api/core/recommendation/Recommendation.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/api/src/main/java/se/simple/api/core/recommendation/RecommendationService.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/recommendation-service/src/main/java/se/simple/microservices/core/recommendation/services/RecommendationServiceImpl.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/recommendation-service/src/main/java/se/simple/microservices/core/recommendation/services/RecommendationMapper.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/recommendation-service/src/main/java/se/simple/microservices/core/recommendation/persistence/RecommendationRepository.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/recommendation-service/src/main/java/se/simple/microservices/core/recommendation/persistence/RecommendationEntity.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/review-service/src/main/java/se/simple/microservices/core/review/ReviewServiceApplication.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/review-service/src/main/resources/application.yml &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/review-service/src/main/java/se/simple/microservices/core/review/services/MessageProcessor.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/api/src/main/java/se/simple/api/core/review/Review.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/api/src/main/java/se/simple/api/core/review/ReviewService.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/review-service/src/main/java/se/simple/microservices/core/review/services/ReviewServiceImpl.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/review-service/src/main/java/se/simple/microservices/core/review/services/ReviewMapper.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/review-service/src/main/java/se/simple/microservices/core/review/persistence/ReviewRepository.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/microservices/review-service/src/main/java/se/simple/microservices/core/review/persistence/ReviewEntity.java &&
+gedit /home/th_ubuntu_20/Documents/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud-23-02-05-Template/Chapter10/api/src/main/java/se/simple/api/event/Event.java
+
+
+

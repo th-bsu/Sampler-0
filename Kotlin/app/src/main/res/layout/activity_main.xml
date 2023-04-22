@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/activity_main"
+    >
+
+    <!-- TH: gets reference design from https://github.com/PacktPublishing/How-to-Build-Android-Apps-with-Kotlin -->
+
+    <TextView
+        android:id="@+id/header"
+        style="@style/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header_text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/shelter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="displays header message ..."
+        />
+
+    <EditText
+        android:id="@+id/shelter"
+        style="@style/shelter_style_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/shelter_hint"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintBottom_toTopOf="@+id/button_operation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="represents user input shelter ..."
+        />
+
+    <Button
+        android:id="@+id/button_operation"
+        style="@style/button_operation_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_operation_text"
+        app:layout_constraintTop_toBottomOf="@id/shelter"
+        app:layout_constraintBottom_toTopOf="@id/button_submit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:backgroundTint="#FFA500"
+        />
+
+    <Button
+        android:id="@+id/button_submit"
+        style="@style/button_submit_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_submit_text"
+        app:layout_constraintTop_toBottomOf="@id/button_operation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:backgroundTint="#FFA500"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

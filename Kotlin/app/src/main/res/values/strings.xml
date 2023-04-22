@@ -1,0 +1,64 @@
+<resources>
+
+    <string name="app_name">Sampler</string>
+    <string name="fragment_size_0"> %d</string>
+
+    <string name="header_text">SEARCH BY SHELTER</string>
+
+    <string name="shelter_hint">Enter Shelter:</string>
+
+    <string name="productId_hint">Highlight ProductId:</string>
+    <string name="productIdAdd_hint">Add ProductId:</string>
+    <string name="productIdAnchor_hint">Anchor ProductId:</string>
+    <string name="productIdDelete_hint">Delete ProductId:</string>
+
+    <string name="textViewShelterEmpty">Shelter Empty</string>
+
+    <string name="editText_productId">ProductId ...</string>
+    <string name="editText_productIdAnchor">ProductIdAnchor ...</string>
+    <string name="editText_productIdAdd">ProductIdAdd ...</string>
+    <string name="editText_productIdDelete">ProductIdDelete ...</string>
+
+    <string name="button_operation_text">OPERATION</string>
+    <string name="button_submit_text">SUBMIT</string>
+    <string name="button_clear_text">CLEAR ALL</string>
+    <string name="button_highlight_text">HIGHLIGHT</string>
+
+    <string name="button_anchor_text">ANCHOR</string>
+    <string name="button_addLEFT_text">ADD LEFT</string>
+    <string name="button_addRIGHT_text">ADD RIGHT</string>
+    <string name="button_add_above_text">ADD ABOVE</string>
+    <string name="button_add_below_text">ADD BELOW</string>
+    <string name="button_add_action_text">ADD ACTION</string>
+    <string name="button_shift_left_text">SHIFT LEFT</string>
+    <string name="button_shift_right_text">SHIFT RIGHT</string>
+
+    <string name="button_delete_single_text">DELETE SINGLE</string>
+    <string name="button_delete_multiple_text">DELETE MULTIPLE</string>
+    <string name="button_delete_action_text">DELETE ACTION</string>
+
+    <string name="button_select_less_text">SELECT LESS</string>
+    <string name="button_select_more_text">SELECT MORE</string>
+
+    <string name="button_setup_text">MODE: SETUP</string>
+    <string name="button_mode_highlight_text">MODE: HIGHLIGHT</string>
+    <string name="button_mode_select_text">MODE: SELECT</string>
+    <string name="button_mode_add_text">MODE: ADD</string>
+    <string name="button_mode_delete_text">MODE: DELETE</string>
+    <string name="button_mode_submit_text">SUBMIT</string>
+    <string name="button_mode_confirm_text">CONFIRM</string>
+    <string name="button_mode_cancel_text">CANCEL</string>
+    <string name="button_mode_done_text">DONE</string>
+    <string name="button_mode_not_yet_text">NOT-YET</string>
+
+    <string name="shelter_form_error">No Valid Shelter Provided !!</string>
+    <string name="shelter_error_empty">No Valid Shelter Provided !!</string>
+
+    <string name="productId_form_error">No Valid ProductId Provided !!</string>
+    <string name="productId_anchor_error_empty">No Valid Anchor Provided !!</string>
+    <string name="productId_anchor_error_select">No Valid Anchor Selected !!</string>
+    <string name="productId_add_error_empty">No Valid ProductId Selected For Add !!</string>
+    <string name="productId_remove_error_empty">No Valid ProductId Selected For Delete !!</string>
+    <string name="productId_remove_actionSet_empty">No Valid ProductId Selected For Delete !!</string>
+
+</resources>

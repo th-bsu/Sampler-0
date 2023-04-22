@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- TH: changes color, based on click. -->
+    <!-- TH: TH: https://www.youtube.com/watch?v=xWWnrh_Gks0 -->
+
+    <item android:state_enabled="false"  android:color = "#D3D3D3" />
+
+    <item android:state_enabled="true"   android:state_selected="false" android:color = "#0000FF" />
+    <item android:state_enabled="true"   android:state_selected="true"  android:color = "#000000" />
+
+</selector>

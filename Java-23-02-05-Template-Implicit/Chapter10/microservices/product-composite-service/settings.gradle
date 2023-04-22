@@ -1,0 +1,2 @@
+// TH: specifies project name.
+rootProject.name = 'product-composite-service'
